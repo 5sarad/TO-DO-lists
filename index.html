@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO DO App</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="./css/style.css">
     <script defer src="./js/app.js"></script>
 </head>
 <body>
+    
     <div class="todo-container">
         <h2>TO DO List</h2>
-       <form action="">
-        <input type="text" placeholder="What do you want to add">
-        <button>ADD NEW</button>
-       </form>
+       
+        <form><input type="text" placeholder="What do you want to do?" > <button id="add_new_btn">ADD NEW</button></form> 
+        
+
         <div class="lists">
-            <div>
-                <span>Study Web Development Courses</span>
-                <input type="checkbox">
-            </div>
+           
         </div>
 
         <div class="footer">
-            10 Total Items <button>View More</button>
+            <span id="total">1</span> Total Items <button id="view-all">View All</button>
         </div>
     </div>
-
 </body>
 </html>
